@@ -27,3 +27,10 @@ venv/Scripts/activate
 ```sh
 pip install -r requirements.txt
 ```
+
+`Environment Vars`
+```sh
+cp .env_sample .env
+
+# altere para algo que quiser
+```
