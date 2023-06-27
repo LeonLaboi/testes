@@ -41,3 +41,6 @@ wandb/
 *.db
 
 dev/
+
+# ignore log files
+*.log
