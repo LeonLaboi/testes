@@ -1,0 +1,43 @@
+# Ignore virtual environment
+venv/
+
+# Mac info files
+.DS_Store
+
+# Vim swap files
+..swp
+.swp
+.swo
+
+# compiled Python files
+*.pyc
+*.pyo
+
+# backup and temporary files
+\#*#
+.*.rej
+*.rej
+.*~
+*~
+.#*
+*.bak
+
+# log files
+logs/*
+
+
+# env config file
+.env
+
+# csv files
+*.csv
+*.feather
+
+# html files in the root;  likely Markdown compiled html 
+/*.html
+README.html
+
+wandb/
+*.db
+
+dev/
