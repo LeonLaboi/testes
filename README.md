@@ -8,6 +8,47 @@ Repositório para testes e exercícios.
 
 Diretório para exercícios e testes usando django
 
+
+#### Comandos básicos do `django-admin`
+
+```sh
+python manage.py $AÇÃO
+django-admin $AÇÃO
+```
+
+##### Criar novo app
+```sh
+python manage.py startapp $NOME_DO_APP
+```
+
+##### Criar migrações
+```sh
+python manage.py makemigrations
+```
+
+##### Aplicar migrações
+```sh
+python manage.py migrate
+```
+
+##### Iniciar servidor
+```sh
+python manage.py runserver
+```
+
+##### Criar super usuário
+```sh
+python manage.py createsuperuser
+```
+
+#### Configurações
+
+A pasta `$BASE_PATH/testes_django/testes_django` mantém os arquivos de configurações do django, da uma lida nele.
+
+Cada app criado, é necessário ser indicado na lista `INSTALLED_APPS`
+
+
+
 ### `logger` 
 
 Scripts relacionados a tratamento de excessões e logs.
