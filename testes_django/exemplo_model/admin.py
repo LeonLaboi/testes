@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Scan, Experiment
+from .models import Scan, Result
 
 
 @admin.register(Scan)
@@ -29,8 +29,8 @@ class ScanAdmin(admin.ModelAdmin):
     ordering = ['name', ]
 
 
-@admin.register(Experiment)
-class ExperimentAdmin(admin.ModelAdmin):
+@admin.register(Result)
+class ResultAdmin(admin.ModelAdmin):
 
     list_display = [
         'name',
